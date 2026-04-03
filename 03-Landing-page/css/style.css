@@ -50,7 +50,6 @@ nav {
                     border: none;
                     text-align: center;
                     cursor: pointer;
-                    transition: all 0.3s ease-in-out;
                     
                 }
         }
@@ -68,7 +67,7 @@ a:hover {
     color: #FFFFFF;
     background-color: blueviolet;
     border-radius: 20px;
-    padding: 5px;
+    padding: 7px;
 }
 a:active {
     color: springgreen;
