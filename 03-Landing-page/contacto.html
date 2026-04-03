@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/03-Landing-page/css/style.css">
+    <link rel="stylesheet" href="/03-Landing-page/css/contacto.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -15,11 +16,27 @@
                     <a href="/03-Landing-page/productos.html">Productos</a></li>
                 <li>
                     <a href="/03-Landing-page/contacto.html">Contacto</a></li>
-                <li>
-                    <a href="/03-Landing-page/conocenos.html">Conocenos</a></li>
-            </ul>
         </nav>
     </header>
     <h1>Contacto</h1>
+    <form class="formulario">
+        <fieldset class="container-contacto">
+            <legend>Contacto</legend>
+            <label class="l1"or="name">Name</label>
+            <input type="text" name="name">
+
+            <label class="l2" for="apellido">Apellido</label>
+            <input type="text" name="apellido">
+
+            <label class="l3" for="correo">Email</label>
+            <input type="email" name="correo">
+
+            <fieldset class="container-mesaje">
+                <legend>Mensaje</legend>
+                <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje..." rows="5" cols="70"></textarea>
+            </fieldset>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
 </body>
 </html>

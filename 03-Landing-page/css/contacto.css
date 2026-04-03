@@ -1,0 +1,60 @@
+/* Contenedor principal */
+.formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+/* Fieldset exterior (Contacto) */
+.container-contacto {
+    border: 2px solid #34495e;
+    border-radius: 8px;
+    padding: 20px;
+    display: grid; /* Usamos grid para alinear etiquetas e inputs */
+    gap: 10px;
+}
+
+/* Fieldset interior (Mensaje) */
+.container-mesaje {
+    border: 1px dashed #95a5a6;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/* Estilo para los títulos (Legend) */
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+/* Inputs y Textarea */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box; /* Evita que el padding desborde el ancho */
+}
+input:focus, textarea:focus {
+    border: 1.5px solid rgb(27, 27, 158);
+}
+
+/* Botón de envío */
+button {
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-top: 15px;
+    background-color: #1e8ed8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #50a5dd;
+}
