@@ -53,9 +53,4 @@
             }
         }
     }
-    .productos:hover {
-        transform: scale(1.1);
-        border: 2px solid rgb(92, 3, 175);
-        box-shadow: 0 0 10px blueviolet;
-    }
 }
